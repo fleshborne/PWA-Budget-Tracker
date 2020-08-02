@@ -1,14 +1,14 @@
 {
-  "name": "PWA-Budget-Tracker",
-  "short_name": "Budget-Tracker",
+  "name": "PWA Budget Tracker",
+  "short_name": "Budget Tracker",
   "icons": [
     {
-      "src": "../images/icons/icon-192x192.png",
+      "src": "../icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "../images/icons/icon-512x512.png",
+      "src": "../icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -17,6 +17,5 @@
   "start_url": "/",
   "description": "An application that allows for offline deposits, once internet connectivity is restored, these offline additions will be added to tracker.",
   "background_color": "#01579b",
-  "theme_color": "#ffffff",
-  "theme-color": "#ffffff"
+  "theme_color": "#ffffff"
 }

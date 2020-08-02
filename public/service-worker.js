@@ -1,14 +1,16 @@
 const FILES_TO_CACHE = [
   '/',
-  '/index.html',
-  '/style.css',
-  '/index.js',
-  '/db.js',
-  '/manifest.webmanifest',
+  'index.html',
+  'style.css',
+  'index.js',
+  'db.js',
+  'images/icons/icon-192x192.png',
+  'images/icons/icon-512x512.png',
+  'manifest.webmanifest',
 ];
 
 // the name of the cache we are going to use for storing our static assets
-const CACHE_NAME = 'static-cache-v2';
+const CACHE_NAME = 'static-cache-v1';
 // the name of the cache we are going to use for storing responses to API requests
 const DATA_CACHE_NAME = 'data-cache-v1';
 
